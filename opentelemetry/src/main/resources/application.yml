@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: demo
+
+  ai:
+    chat:
+      observations:
+        include-prompt: true
+        include-completion: true
+    ollama:
+      init:
+        pull-model-strategy: when-missing
+        embedding:
+          include: false
+      chat:
+        options:
+          model: smollm2:135m
+
+arconia:
+  dev:
+    services:
+      lgtm:
+        image-name: grafana/otel-lgtm:0.9.1
+      ollama:
+        enabled: true
