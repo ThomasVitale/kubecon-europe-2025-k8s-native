@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: demo
+
+  ai:
+    ollama:
+      init:
+        pull-model-strategy: when-missing
+        embedding:
+          include: false
+      chat:
+        options:
+          model: smollm2:135m
+
+arconia:
+  dev:
+    services:
+      ollama:
+        enabled: true
