@@ -1,0 +1,6 @@
+services:
+  buildpacks:
+    container_name: buildpacks
+    image: buildpacks:1.0.0
+    ports:
+      - "8080:8080"
