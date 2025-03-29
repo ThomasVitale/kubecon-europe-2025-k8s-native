@@ -7,4 +7,4 @@
 * Testcontainers
 * Microcks
 * OpenTelemetry
-* Kubernetes Service Bindings
+* Kubernetes Service Binding

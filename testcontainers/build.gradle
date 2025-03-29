@@ -47,9 +47,5 @@ tasks.named('test') {
 }
 
 tasks.named('bootBuildImage') {
-	builder = "paketobuildpacks/builder-noble-java-tiny"
-	buildpacks = [
-		"gcr.io/paketo-buildpacks/graalvm",
-		"paketo-buildpacks/java"
-	]
+	builder = "paketobuildpacks/builder-noble-java-tiny:0.0.23"
 }

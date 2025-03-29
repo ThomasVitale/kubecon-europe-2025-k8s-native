@@ -23,3 +23,4 @@ arconia:
         image-name: grafana/otel-lgtm:0.9.1
       ollama:
         enabled: true
+        image-name: ollama/ollama:0.6.3

@@ -17,3 +17,4 @@ arconia:
     services:
       ollama:
         enabled: true
+        image-name: ollama/ollama:0.6.3

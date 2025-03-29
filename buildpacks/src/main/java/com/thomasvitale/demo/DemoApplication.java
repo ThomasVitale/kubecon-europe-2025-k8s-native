@@ -17,7 +17,7 @@ public class DemoApplication {
 	@Bean
 	RouterFunction<ServerResponse> router() {
 		return RouterFunctions.route()
-			.GET("/", _ -> ServerResponse.ok().body("It's London, baby!"))
+			.GET("/", _ -> ServerResponse.ok().body("London, baby!"))
 			.build();
 	}
 

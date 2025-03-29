@@ -20,7 +20,7 @@ public class DemoApplication {
 	RouterFunction<ServerResponse> router(ChatClient.Builder chatClientBuilder) {
 		var chatClient = chatClientBuilder.build();
 		return RouterFunctions.route()
-			.GET("/", _ -> ServerResponse.ok().body("It's London, baby!"))
+			.GET("/", _ -> ServerResponse.ok().body("London, baby!"))
 			.GET("/chat", request -> ServerResponse.ok().body(chatClient
 				.prompt(request.param("message").orElse("What is the capital of England?"))
 				.call()
