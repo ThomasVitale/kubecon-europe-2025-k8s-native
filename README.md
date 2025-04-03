@@ -5,6 +5,7 @@
 * Podman Desktop
 * Cloud Native Buildpacks
 * Kubernetes
+* Quarkus (Demo source code: https://github.com/kdubois/quarkus-kubernetes-kafka-db)
 * Knative
 * Testcontainers
 * Microcks
